@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gameplay.Trial">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@primaryCoverjpg.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <Pane layoutX="1060.0" layoutY="120.0" prefHeight="480.0" prefWidth="170.0" style="-fx-background-color: #404040;">
+               <children>
+                  <Pane prefHeight="120.0" prefWidth="170.0" style="-fx-background-color: #808080;">
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Pane>
+                  <Pane layoutY="120.0" prefHeight="120.0" prefWidth="170.0" />
+                  <Pane layoutY="240.0" prefHeight="120.0" prefWidth="170.0" />
+                  <Pane layoutY="360.0" prefHeight="120.0" prefWidth="170.0" />
+               </children></Pane>
+            <Pane layoutX="786.0" layoutY="140.0" prefHeight="325.0" prefWidth="225.0" style="-fx-background-color: #707070;">
+               <children>
+                  <ImageView fx:id="dolilShower" fitHeight="275.0" fitWidth="225.0" opacity="0.975" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../P1.png" />
+                     </image></ImageView>
+               </children></Pane>
+            <ImageView fitHeight="680.0" fitWidth="680.0" layoutX="50.0" layoutY="20.0" opacity="0.975" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@FullBoardv4.jpg" />
+               </image>
+            </ImageView>
+            <GridPane fx:id="grid" layoutX="50.0" layoutY="20.0" maxHeight="680.0" maxWidth="680.0" minHeight="680.0" minWidth="680.0" prefHeight="680.0" prefWidth="680.0">
+               <children>
+                  <Circle fx:id="nil_guti" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="10">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Circle>
+                  <Circle fx:id="lal_guti" fill="#ff1f1f" layoutX="645.0" layoutY="645.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="10">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Circle>
+                  <Circle fx:id="sobuj_guti" fill="#2da81d" layoutX="128.0" layoutY="55.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="10">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Circle>
+                  <Circle fx:id="holud_guti" fill="#e8eb2e" layoutX="55.0" layoutY="128.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="10">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Circle>
+                  <Pane onMouseClicked="#p12" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                  <Pane onMouseClicked="#p13" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" />
+                  <Pane onMouseClicked="#p14" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" />
+                  <Pane onMouseClicked="#s3" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" />
+                  <Pane onMouseClicked="#p15" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" />
+                  <Pane onMouseClicked="#p16" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" />
+                  <Pane onMouseClicked="#u2" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" />
+                  <Pane onMouseClicked="#p17" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="9" />
+                  <Pane onMouseClicked="#p18" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                  <Pane onMouseClicked="#p19" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                  <Pane onMouseClicked="#p20" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                  <Pane onMouseClicked="#s4" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                  <Pane onMouseClicked="#p21" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                  <Pane onMouseClicked="#p22" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                  <Pane onMouseClicked="#p1" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                  <Pane onMouseClicked="#p2" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                  <Pane onMouseClicked="#s1" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                  <Pane onMouseClicked="#p3" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                  <Pane onMouseClicked="#p4" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                  <Pane onMouseClicked="#p5" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                  <Pane onMouseClicked="#p6" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="9" />
+                  <Pane onMouseClicked="#u1" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="8" />
+                  <Pane onMouseClicked="#p7" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="7" />
+                  <Pane onMouseClicked="#p8" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6" />
+                  <Pane onMouseClicked="#s2" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5" />
+                  <Pane onMouseClicked="#p9" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4" />
+                  <Pane onMouseClicked="#p10" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+                  <Pane onMouseClicked="#p18" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                  <Pane layoutX="10.0" layoutY="156.0" onMouseClicked="#p11" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="90.0" prefWidth="90.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="90.0" prefWidth="90.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <Button id="rollButton" fx:id="rollButton" layoutX="863.0" layoutY="602.0" mnemonicParsing="false" onAction="#rollDiceClicked" prefWidth="72.0" stylesheets="@../Style.css" text="Roll!" />
+            <Pane fx:id="imageViewPane" layoutX="215.0" layoutY="340.0" prefHeight="200.0" prefWidth="350.0">
+               <children>
+                  <Button layoutX="15.0" layoutY="160.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="39.0" style="-fx-background-color: TRANSPARENT;" text="OK">
+                     <font>
+                        <Font name="Kabel-Heavy" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="65.0" layoutY="160.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="CANCEL">
+                     <font>
+                        <Font name="Kabel-Heavy" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="789.0" layoutY="490.0" prefHeight="100.0" prefWidth="220.0">
+               <children>
+                  <ImageView fx:id="dice1" fitHeight="75.0" fitWidth="75.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@d6.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="dice2" fitHeight="75.0" fitWidth="75.0" layoutX="131.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@d6.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="buyButton" layoutX="963.0" layoutY="627.0" mnemonicParsing="false" onAction="#buyClicked" text="buy" />
+            <Button fx:id="cancelButton" layoutX="1011.0" layoutY="626.0" mnemonicParsing="false" onAction="#cancelClicked" text="cancel" />
+            <Button fx:id="payButton" layoutX="1074.0" layoutY="626.0" mnemonicParsing="false" onAction="#payClicked" text="pay" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

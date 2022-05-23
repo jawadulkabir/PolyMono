@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OpeningWindow">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@monopoly%20be%20clever%20be%20rich.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="540.0" layoutY="353.0" prefHeight="400.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button id="play" mnemonicParsing="false" onAction="#playClicked" prefHeight="60.0" prefWidth="200.0" stylesheets="@Style.css" text="PLAY" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+            </Button>
+            <Button id="instruction" mnemonicParsing="false" onAction="#instructionsClicked" prefHeight="60.0" prefWidth="200.0" stylesheets="@Style.css" text="INSTRUCTIONS">
+               <font>
+                  <Font name="Impact" size="25.0" />
+               </font>
+            </Button>
+            <Button id="about" mnemonicParsing="false" onAction="#aboutClicked" prefHeight="60.0" prefWidth="200.0" stylesheets="@Style.css" text="ABOUT">
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+            </Button>
+            <Button id="exit" mnemonicParsing="false" onAction="#exitClicked" prefHeight="60.0" prefWidth="200.0" stylesheets="@Style.css" text="EXIT" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
